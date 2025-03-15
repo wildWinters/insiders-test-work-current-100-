@@ -1,4 +1,5 @@
 "use client"
+import Events from "./components/Events";
 import Header from "./components/Header";
 import AuthModal from "./components/AuthModal";
 import useHeaderStore from "./stores/headerStore";
@@ -21,7 +22,7 @@ export default function Home() {
       {/* <Calendar/> */}
       {/* <EventList/>  */}
       {/* <CreateActions/>   */}
-
+      <Events/>
 
       {/* {isCalendarModal && <CRUDOPERATION onClose = {deactivateCalendarModal} />} */}
     </>
